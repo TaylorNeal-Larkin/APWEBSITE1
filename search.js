@@ -1,6 +1,6 @@
 btn = document.querySelector('.btn')
-searh
+search = document.querySelector('.search')
 
 btn.addEventListener('click', () => {
-
+    
 })
