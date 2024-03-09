@@ -1,4 +1,14 @@
 loadText = document.querySelector('.loading-text')
+bg = document.querySelector('.bg')
+load = 0
 
-loadText.innerText = "5%"
-console.log("Hello")
+
+blurring()
+
+
+function blurring() {
+    load++
+    loadText.innerText = `${load}%`
+    loadText.style.opacity = 1
+    bg.style.filter = "blur(10px)"
+}
