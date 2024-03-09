@@ -1,5 +1,8 @@
 
 
+*{
+    box-sizing: border-box;
+}
 body {
      background-color: Dodgerblue;
      height: 100vh;
@@ -32,6 +35,5 @@ body {
     height: 50px;
     width: 200px;
     padding: 15px;
-    box-sizing: border-box;
 }
 
