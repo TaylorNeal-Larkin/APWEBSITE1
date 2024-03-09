@@ -48,6 +48,6 @@ body {
 }
 
 .search.active .btn {
-    transform: translatex(198px)
+    transform: translatex(198px);
 }
 
