@@ -3,15 +3,19 @@ open = document.getElementById('open')
 model = document.getElementById('model')
 close = document.getElementById('close')
 
-
+// Toggle Nav
 toggle.addEventListener('click', () => {
     document.body.classList.toggle('show-nav')
 })
 
+// Show Modal
 open.addEventListener('click', () => {
     modal.classList.add('show-model')
 })
 
+// Hide Modal
 close.addEventListener('click', () => {
     modal.classList.remove('show-model')
 })
+
+// Hide Model on outside click
