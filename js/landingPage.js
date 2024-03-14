@@ -13,5 +13,5 @@ open.addEventListener('click', () => {
 })
 
 close.addEventListener('click', () => {
-    
+    modal.classList.remove('show-model')
 })
